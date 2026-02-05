@@ -129,10 +129,64 @@ header {
    font-size: 36px;
    color: #1F2937;
    font-weight: 300;
+   min-width: 800px;
 }
 .quote-author {
     margin-left: auto;
     color: #1F2937;
     font-size: 20px;
     font-weight: 900;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call-to-action-banner {
+    background-color: #3882F6;
+    padding: 60px 140px;
+    border-radius: 8px;
+    display: flex;
+    gap: 150px;
+    min-width: 678px;
+}
+
+.call-to-action-title {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.call-to-action-text {
+    color: #E5E7EB;
+    font-size: 14px;
+}
+
+.call-to-action-right {
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 0px 48px;
+}
+
+.call-to-action-right:hover {
+    background-color: #F9FAF8;
+    cursor: pointer;
+    color: #3882F6;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    color: #E5E7EB;
+    font-size: 14px;
 }
